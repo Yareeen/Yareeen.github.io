@@ -6,9 +6,8 @@ body{
    background-color: rgb(231, 224, 224);
 }
 
-header,main{
-    width: 70%;
-    height: 20%;
+header{
+    height: 80px;
     background: linear-gradient(90deg,#525EDC,pink);
     margin: auto auto;
 }
@@ -18,8 +17,7 @@ p{
     font-size: 20px;
     padding: 5px;
 }
-
-header img{
+img{
     width: 12%;
     border-radius: 50%;
     display:block;
@@ -27,22 +25,47 @@ header img{
 }
 
 
-main{
-    width: 68.5%;
-    margin-top: 1%;
-    padding:10px;
 
-}
 h1{
     text-align: center;
+}
+main{
+    margin-top: 4%;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    /*background-color: black;*/
+    justify-content: space-around;
+
+}
+.sol_box{
+   width:35%;
+   background-color: blueviolet;
+}
+
+
+.sag_box{
+width: 35%;
+/*background-color: blueviolet;*/
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+
+.ic_box{
+    width: 45%;
+    height: 45%;
+    border-radius: 10px;
+    text-align: center;
+   /* background-color: bisque;*/
 }
 
 footer{
     background-color: grey;
    height: 50px;
-   width: 70%;
-   margin-top: 1%;
-   margin-bottom: 10px;
+   width: 100%;
+   margin-top: 82px;
    margin-left: auto ;
    margin-right: auto;
 }
